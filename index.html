@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>apple-like-slide</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Apple-like Gallery
+            <br>
+            <b>Slideshow</b>
+        </h1>
+        <h2>
+            View the <a href="https://tutorialzine.com/2009/11/beautiful-apple-gallery-slideshow/">original tutorial »</a>
+        </h2>
+    </header>
+    <div class="gallery">
+        <div class="slide">
+            <img src="./1.jpg" alt="图片1" width="920" height="400">
+            <img src="./2.jpg" alt="图片2" width="920" height="400">
+            <img src="./3.jpg" alt="图片3" width="920" height="400">
+            <img src="./4.jpg" alt="图片4" width="920" height="400">
+        </div>
+    </div>
+        <div class="buttonWrapper">            
+            <button><a class="active"><img src="./thumb_1.png" alt="缩略图" width="32" height="32"></img></a></button>
+            <button><a><img src="./thumb_2.png" alt="缩略图" width="32" height="32"></a></img></button>
+            <button><a><img src="./thumb_3.png" alt="缩略图" width="32" height="32"></a></img></button>
+            <button><a><img src="./thumb_4.png" alt="缩略图" width="32" height="32"></a></img></button>
+        </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
